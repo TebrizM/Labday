@@ -1,0 +1,94 @@
+/* external css start here */
+
+/* .my-element{
+    text-align: center;
+    width: 155px;
+    height: 155px;
+    font-size: 25px;
+    color: rgb(255, 215, 0);
+    background-color: rgb(0, 0, 0);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.navigation{
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 67px;
+    line-height: 67px;
+    background-color: rgb(0, 0, 0);
+}
+.brand-logo{
+    float: left;
+}
+
+.brand-logo__link{
+    display: block;
+    width: 155px;
+    height: 67px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navigation__items{
+    float: right;
+}
+.navigation__item{
+    display: inline-block;
+}
+.navigation__item:hover .navigation__link{
+    /* transform: scale(0.9); */
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 42);
+}
+.fas{
+    transition: padding .5s;
+}
+.navigation__item:hover .fa-angle-right{
+    padding-left:5px ;
+}
+.navigation__link{
+    display: block;
+    text-align: center;
+    padding: 0 12px;
+    width: 111px;
+    letter-spacing: 1.3px;
+    transition: color .3s, background-color .3s, text-transform .3s, transform .5s;
+    color:rgb(255, 255, 255);
+}
+
+.my-main{
+    margin: 67px 0 0;
+    width: 100%;
+    height: 555px;
+    background-image: url("../media/images/main.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.my-main__heading,.my-main__text{
+    margin: 15px 0;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+/* external css end here */
